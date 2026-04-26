@@ -83,3 +83,9 @@ def get_warriors_got():
         "Sansa Stark",
     ]
     return rows
+
+
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Docker", "Github", "Linux", "Python"]
+    return rows
